@@ -1,0 +1,33 @@
+A tutorial on scraping Twitter data using Twint, cleaning the text, and classifying tweets into positive, negative, and neutral categories.
+The comparison between VADER and Lexicon-Based (Bing Liu) methods shows good consistency in sentiment polarity, proving that lexicon testing strengthens rule-based sentiment analysis
+
+⚙️ Technologies Used
+1. Python
+2. JupyterLab / Jupyter Notebook
+
+Libraries:
+1. twint – Scraping Twitter data
+2. vaderSentiment – Automatic sentiment labeling
+3. nltk, pandas – Text processing & data analysis
+4. matplotlib – Visualization
+
+🧩 Workflow
+1. Scrape tweets using Twint
+2. Clean and preprocess text (tokenize, remove stopwords, stemming, lemmatization)
+3. Classify tweets using VADER
+4. Validate results with Lexicon-Based (Bing Liu)
+5. Visualize sentiment distribution
+
+🧠 Objectives
+1. To analyze public sentiment on the Papua armed conflict through Twitter
+2. To demonstrate sentiment analysis using VADER and Lexicon-Based methods
+3. To compare and evaluate sentiment consistency between both approaches
+
+📁 Dataset
+
+Source: Tweets with hashtag #KKBPAPUA
+Total: 433 tweets
+Format: CSV after preprocessing
+
+Licensed under the Apache License 2.0
+© 2022 Adiev Ghifari Syahviar. All rights reserved under applicable patent and copyright law.
